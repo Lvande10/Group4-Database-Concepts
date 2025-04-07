@@ -86,7 +86,7 @@ WHERE user_id = 7;
 -- Check if user Exists (For example: user 14 does not exist)
 SELECT COUNT(*) 
 FROM user_registration
-WHERE user_id = 14
+WHERE user_id = 14;
 
 
 ----------------------------------------------------------------------------------------------------
