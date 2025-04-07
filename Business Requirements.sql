@@ -183,7 +183,7 @@ INSERT INTO vendor (vendor_id, vendor_name, phone, email, address_line, city, st
 VALUES (11, 'Green Tech Ltd', '8003337777', 'contact@greentech.com', '456 Green St', 'Los Angeles', 'CA', '90001', 'USA', 'www.greentech.com', 'Renewable Energy', TO_DATE('2020-05-15', 'YYYY-MM-DD'), TO_DATE('2026-05-15', 'YYYY-MM-DD'), 1, SYSDATE, SYSDATE, 2);
 
 -- Remove a vendor
-DELETE FROM vendor WHERE vendor_id = 9
+DELETE FROM vendor WHERE vendor_id = 9;
 
 -- Active/Deactive vendor 
 UPDATE vendor
