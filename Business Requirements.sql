@@ -193,22 +193,22 @@ WHERE vendor_id = 7;
 -- Update a vendors information
 UPDATE vendor
 SET 
-    vendor_name = '-----',
-    phone = '-----',
-    email = '-----',
-    address_line = '-----',
-    city = '-----s',
-    state = '-----',
-    postal_code = '-----',
-    country = '-----',
-    website = '-----',
-    vendor_type = '-----',
-    contract_start_date = TO_DATE('-----', 'YYYY-MM-DD'),
-    contract_end_date = TO_DATE('-----', 'YYYY-MM-DD'),
+    vendor_name = 'Global Tech Solutions',
+    phone = '987-654-3210',
+    email = 'support@globaltech.com',
+    address_line = '456 Elm Street',
+    city = 'San Francisco',
+    state = 'CA',
+    postal_code = '94107',
+    country = 'USA',
+    website = 'www.globaltech.com',
+    vendor_type = 'IT Services',
+    contract_start_date = TO_DATE('2025-03-01', 'YYYY-MM-DD'),
+    contract_end_date = TO_DATE('2026-03-01', 'YYYY-MM-DD'),
     is_active = 1,
-    last_updated = TO_TIMESTAMP('-----', 'YYYY-MM-DD HH24:MI:SS'),
-    account_manager_id = -----
-WHERE vendor_id = -----;
+    last_updated = SYSTIMESTAMP,
+    account_manager_id = 9
+WHERE vendor_id = 10;
 
 
 ----------------------------------------------------------------------------------------------------
