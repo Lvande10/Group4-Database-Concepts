@@ -263,7 +263,7 @@ SELECT
 FROM 
     customer c
 WHERE 
-    TO_CHAR(c.join_date, 'YYYY-MM') = '2023-01'  -
+    TO_CHAR(c.join_date, 'YYYY-MM') = '2023-01'
 GROUP BY 
     TO_CHAR(c.join_date, 'YYYY-MM')
 ORDER BY 
